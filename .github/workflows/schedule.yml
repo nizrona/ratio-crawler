@@ -2,7 +2,7 @@ name: Daily Screenshot Capture
 
 on:
   schedule:
-    - cron: '5 9 * * *'   # 한국 시간 매일 18:05 (UTC 09:05)
+    - cron: '1 9 * * *'   # 한국 시간 매일 18:05 (UTC 09:05)
   workflow_dispatch:      # 수동 실행 버튼
 
 jobs:
