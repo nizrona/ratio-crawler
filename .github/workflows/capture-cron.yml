@@ -1,0 +1,14 @@
+name: Cron Test
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+      timezone: 'Asia/Seoul'
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show time
+        run: date
