@@ -2,7 +2,7 @@ name: Daily Screenshot Capture
 
 on:
   schedule:
-    - cron: '35 12 * * *'  # 10분마다 실행 (테스트용)
+    - cron: '*/10 * * * *'   # 10분마다 자동 실행 (테스트용)
   workflow_dispatch:
 
 jobs:
