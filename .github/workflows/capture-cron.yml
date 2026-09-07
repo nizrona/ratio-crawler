@@ -2,8 +2,8 @@ name: Cron Test
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
-      timezone: 'Asia/Seoul'
+    # 2시간마다 실행 (정각 회피: 17분)
+    - cron: '17 */2 * * *'
   workflow_dispatch:
 
 jobs:
