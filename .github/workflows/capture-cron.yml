@@ -3,7 +3,7 @@ name: Cron Test
 on:
   schedule:
     # 2시간마다 실행 (정각 회피: 17분)
-    - cron: '17 */2 * * *'
+    # - cron: '17 */2 * * *'
   workflow_dispatch:
 
 jobs:
