@@ -17,13 +17,11 @@ from pptx.dml.color import RGBColor
 
 
 # ============================================================
-# 1. 파일 설정 (스크립트가 위치한 폴더 기준 절대 경로 처리)
+# 1. 파일 설정
 # ============================================================
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-DATA_FILE = os.path.join(BASE_DIR, "KAIST_수시_경쟁률_입력데이터.xlsx")
-OUTPUT_FILE = os.path.join(BASE_DIR, "KAIST_2026_2027_수시지원자_비교.pptx")
+DATA_FILE = "KAIST_수시_경쟁률_입력데이터.xlsx"
+OUTPUT_FILE = "KAIST_2026_2027_수시지원자_비교.pptx"
 
 LAST_YEAR_SHEET = "2026학년도"
 THIS_YEAR_SHEET = "2027학년도"
