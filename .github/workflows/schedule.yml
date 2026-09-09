@@ -2,7 +2,7 @@ name: Daily Screenshot Capture
 
 on:
   schedule:
-    - cron: '17 */4 * * *'
+    # - cron: '17 */4 * * *'
   workflow_dispatch:
 
 jobs:
